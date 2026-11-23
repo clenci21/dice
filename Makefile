@@ -3,6 +3,6 @@ CC = gcc
 FLAGS = -Wall -Werror -Wextra
 
 build: main.c
-	$(CC) $(FLAGS) main.c -o dice_c
+	$(CC) $(FLAGS) main.c -o dice.c
 clean:
-	rm dice_c
+	rm dice.c
